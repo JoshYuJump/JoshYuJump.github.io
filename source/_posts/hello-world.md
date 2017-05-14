@@ -1,38 +1,40 @@
 ---
-title: Hello World
+title: 开篇：回一回首，往前走
+categories:
+- 生活
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+欢迎你，也欢迎我。
 
-## Quick Start
+## 来历
 
-### Create a new post
+1987，一个属于萌芽的年代。29 年信奉着阳光积极的美好教条，也曾立志做个好人。
 
-``` bash
-$ hexo new "My New Post"
-```
+「开篇」，更应该称为「再开篇」。
+用大学时注册的 `yooi.net` 老域名做了 2 次博客了，没有坚持下去。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+既然，坚持不下去的坚持就是勉强，所以问题的答案其实是不勉强。
 
-### Run server
+## 保留
 
-``` bash
-$ hexo server
-```
+原本是一枚网站仔（当看到「网站」的时候，我才能记得我是对 TA 热爱的）。
 
-More info: [Server](https://hexo.io/docs/server.html)
+进入一家创业公司做后端程序员，出于顶替，兼项目经理职责，兼产品经理职责。
 
-### Generate static files
+其实早在一年前就开始奔走各种产品学习平台，练就未来做一件事的功力。
 
-``` bash
-$ hexo generate
-```
+有个叛逆的画家说：多会一种语言就多一种思维，而多兼一份值就多一些思考充斥于脑中。记录是一种减负。
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+** 生活 **：爱生活，爱自己，其实是需要学习的；
 
-### Deploy to remote sites
+** 技术 **：程序是一个工具，工具用久了却形成了思维；
 
-``` bash
-$ hexo deploy
-```
+** 创业 **：开公司不叫创业，做一件有意义的事才是。
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+## 回首
+
+所谓回首，更像看一场电影。
+
+「每当变幻时」 - Miss 曾经在身边的人
+
+「摆渡人」- 能摆渡别人却摆渡不了自己
+
