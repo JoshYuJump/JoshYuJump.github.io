@@ -1,5 +1,6 @@
 node_modules/
 .deploy_git/
+.vscode/
 public/
 db.json
 
