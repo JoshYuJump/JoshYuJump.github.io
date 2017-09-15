@@ -292,13 +292,13 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-disqus:
-  enable: false
-  shortname:
-  count: true
+# disqus:
+#   enable: false
+#   shortname: jump56
+#   count: true
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 95569
 
 # Gentie productKey
 #gentie_productKey:
