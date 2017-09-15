@@ -19,5 +19,23 @@ Sanic 是和 Flask 非常像的一个基于 Python 的 Web 框架，比 Flask �
 同时我们公司的小伙伴也在工作中建立了一个CMS：[Sanic-CMS](https://github.com/JoshYuJump/sanic-cms)
 
 
+## http_proxy
+
+比较简单的方法是使用 nginx 的 http_proxy。
+
+Sanic 自带 Web server，直接通过 `python3 app.py` 的方式即可运行。
+
+```
+location / {
+    proxy_pass http://localhost:8000;
+} 
+```
+
+虽然这样比较简单，但也有几个比较突出的问题：
+1. Sanic 自带的 Web server 能不能像 tornado 自带的 server 一样用于生产环境
+2. nginx 与 Sanic 应用通过 http 通讯不算是一种高效的方式
+
+
+
 ... to be continue
 
