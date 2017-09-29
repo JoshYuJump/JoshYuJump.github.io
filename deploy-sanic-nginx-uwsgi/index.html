@@ -95,7 +95,7 @@
 <meta property="og:site_name" content="jump56">
 <meta property="og:description" content="Sanic 是什么首先，简单介绍一下 Sanic。 Sanic 是和 Flask 非常像的一个基于 Python 的 Web 框架，比 Flask 相比，它是基于 Python 3.5 的异步框架。由于使用到了基于 uvloop 的 IO 模型，并发及运行效率都很高。所以 Sanic 自称：Gotta go fast! 同时我们公司的小伙伴也在工作中建立了一个CMS：Sanic-CMS http_">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-15T09:02:10.000Z">
+<meta property="og:updated_time" content="2017-09-29T23:23:05.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 nginx + uWSGI 部署 Sanic">
 <meta name="twitter:description" content="Sanic 是什么首先，简单介绍一下 Sanic。 Sanic 是和 Flask 非常像的一个基于 Python 的 Web 框架，比 Flask 相比，它是基于 Python 3.5 的异步框架。由于使用到了基于 uvloop 的 IO 模型，并发及运行效率都很高。所以 Sanic 自称：Gotta go fast! 同时我们公司的小伙伴也在工作中建立了一个CMS：Sanic-CMS http_">
@@ -373,7 +373,15 @@
 <li>Sanic 自带的 Web server 能不能像 tornado 自带的 server 一样用于生产环境</li>
 <li>nginx 与 Sanic 应用通过 http 通讯不算是一种高效的方式</li>
 </ol>
-<p>… to be continue</p>
+<h2 id="uWSGI"><a href="#uWSGI" class="headerlink" title="uWSGI"></a>uWSGI</h2><p>Sanic 官方文档推荐使用 Gunicorn。</p>
+<p>这个 section 本来应该有一堆 benchmark 的，基于两点不想继续写接下来的篇幅：</p>
+<ol>
+<li><p>最近在读 Sanic 源码，感觉是个糟糕的应用</p>
+</li>
+<li><p>忙/懒</p>
+</li>
+</ol>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>Sanic 以 asyncio 而出名，网红级的新框架。当然很多粉丝只是看到了网上传递的神奇 benchmark。<br>个人认为 Sanic 本身的代码是需要重构才能是一个合格的框架的！</p>
 
       
     </div>
@@ -578,7 +586,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Sanic-是什么"><span class="nav-number">1.</span> <span class="nav-text">Sanic 是什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#http-proxy"><span class="nav-number">2.</span> <span class="nav-text">http_proxy</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Sanic-是什么"><span class="nav-number">1.</span> <span class="nav-text">Sanic 是什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#http-proxy"><span class="nav-number">2.</span> <span class="nav-text">http_proxy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#uWSGI"><span class="nav-number">3.</span> <span class="nav-text">uWSGI</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结论"><span class="nav-number">4.</span> <span class="nav-text">结论</span></a></li></ol></div>
             
 
           </div>
