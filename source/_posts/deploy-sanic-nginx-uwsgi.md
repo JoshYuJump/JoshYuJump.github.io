@@ -37,5 +37,18 @@ location / {
 
 
 
-... to be continue
+## uWSGI 
 
+Sanic 官方文档推荐使用 Gunicorn。
+
+这个 section 本来应该有一堆 benchmark 的，基于两点不想继续写接下来的篇幅：
+
+1. 最近在读 Sanic 源码，感觉是个糟糕的应用
+
+2. 忙/懒
+
+
+## 结论
+
+Sanic 以 asyncio 而出名，网红级的新框架。当然很多粉丝只是看到了网上传递的神奇 benchmark。
+个人认为 Sanic 本身的代码是需要重构才能是一个合格的框架的！
